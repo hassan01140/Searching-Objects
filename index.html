@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile Phone Prices</title>
+</head>
+<body>
+  <h2>Select a mobile company:</h2>
+  <select id="mobileCompany" onchange="showMobilesAndPrices()">
+    <option value="">-- Select a company --</option>
+    <option value="apple">Apple</option>
+    <option value="samsung">Samsung</option>
+    <option value="oppo">Oppo</option>
+    <option value="vivo">Vivo</option>
+    <!-- Add other companies here as needed -->
+  </select>
+
+  <div id="mobilesAndPrices">
+    <!-- This div will be populated with the selected company's mobiles and prices -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
